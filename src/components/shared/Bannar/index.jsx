@@ -34,13 +34,13 @@ const NavbarBannar = () => {
                 </div>
               </div>
             </div>
-            {/* Image Section */}
+
             <div className="hidden lg:block lg:w-1/2">
               <Image
                 src="/copyshop.png"
                 alt="Restaurant View"
-                width={600} // ছবির প্রস্থ
-                height={400} // ছবির উচ্চতা
+                width={600}
+                height={400}
                 className="rounded-lg shadow-lg"
               />
             </div>
@@ -52,8 +52,8 @@ const NavbarBannar = () => {
               <Image
                 src="/discount.png"
                 alt="Restaurant View"
-                width={100} // ছবির প্রস্থ
-                height={40} // ছবির উচ্চতা
+                width={100}
+                height={40}
                 className="rounded-lg shadow-lg"
               />
               <div className="">
@@ -66,8 +66,8 @@ const NavbarBannar = () => {
               <Image
                 src="/discount.png"
                 alt="Restaurant View"
-                width={100} // ছবির প্রস্থ
-                height={40} // ছবির উচ্চতা
+                width={100}
+                height={40}
                 className="rounded-lg shadow-lg"
               />
               <div className="">
@@ -80,8 +80,8 @@ const NavbarBannar = () => {
               <Image
                 src="/discount.png"
                 alt="Restaurant View"
-                width={100} // ছবির প্রস্থ
-                height={40} // ছবির উচ্চতা
+                width={100}
+                height={40}
                 className="rounded-lg shadow-lg"
               />
               <div className="">

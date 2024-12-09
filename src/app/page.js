@@ -1,12 +1,10 @@
-import NavbarBannar from "@/components/shared/Bannar";
-import PopulerProduct from "@/components/shared/PopulerProduct";
+import AllHomepage from "@/components/shared";
 import Image from "next/image";
 
 export default function Home() {
   return (
     <div>
-      <NavbarBannar></NavbarBannar>
-      <PopulerProduct></PopulerProduct>
+      <AllHomepage></AllHomepage>
     </div>
   );
 }
