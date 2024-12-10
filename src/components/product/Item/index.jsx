@@ -7,7 +7,7 @@ const ItemPage = () => {
     <div className="container mx-auto p-4">
       <div className="flex justify-end">
         <Link href={`/explore-product`}>
-          <button className="flex items-center gap-1 text-base font-normal text-dark-100">
+          <button className="flex items-center gap-1 text-base font-normal text-green-400">
             See All{" "}
             <svg
               xmlns="http://www.w3.org/2000/svg"
