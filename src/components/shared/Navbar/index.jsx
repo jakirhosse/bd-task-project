@@ -52,6 +52,13 @@ const Navbar = () => {
             Support
           </Link>
 
+          <Link
+            href="/dashboard"
+            className="text-gray-700 hover:text-orange-500"
+          >
+            Dashboard
+          </Link>
+
           {/* Icons Section */}
           <div className="flex items-center space-x-4">
             {/* Cart Icon */}

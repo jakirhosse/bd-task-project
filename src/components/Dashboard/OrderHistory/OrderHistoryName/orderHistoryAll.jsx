@@ -2,7 +2,7 @@ import React from "react";
 import SideBar from "../../SideBar";
 import OrderHistory from ".";
 
-const orderHistoryAll = () => {
+const OrderHistoryAll = () => {
   return (
     <div>
       <div className="container grid grid-col-1 md:grid-cols-4 gap-5 my-10">
@@ -17,4 +17,4 @@ const orderHistoryAll = () => {
   );
 };
 
-export default orderHistoryAll;
+export default OrderHistoryAll;
