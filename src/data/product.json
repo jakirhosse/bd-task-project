@@ -77,6 +77,27 @@
                  "name":"The Book",
                 "title":"Delicouse tackos, appetizing...",
                 "price":45.5
+        },
+        {
+                "image":"https://i.ibb.co.com/0jFDnRr/Image-9.png",
+                "name":"Crazy tacko",
+                "title":"Delicouse tackos, appetizing...",
+                "price":45.5
+
+        },
+        {
+                "image":"https://i.ibb.co.com/0jFDnRr/Image-9.png",
+                "name":"Crazy tacko",
+                "title":"Delicouse tackos, appetizing...",
+                "price":45.5
+
+        },
+        {
+                "image":"https://i.ibb.co.com/DMnZzwc/Image-block-1.png",
+                "name":"The Book",
+                "title":"Delicouse tackos, appetizing...",
+                "price":45.5
+
         }
         
 ]

@@ -5,21 +5,19 @@ import React from "react";
 const Navbar = () => {
   return (
     <nav className="bg-white shadow-md w-full">
-      <div className="container mx-auto px-4 py-2 flex items-center justify-between">
+      <div className="container mx-auto px-4 py-2 flex items-center justify-between z-20">
         {/* Logo Section */}
         <div className="flex items-center space-x-2">
-          {/* Display logo using the Image component for optimization */}
           <Image
-            src="/logoimg.png" // Replace with your uploaded logo's path
+            src="/logoimg.png"
             alt="Discount Me Logo"
-            width={180} // Adjust width as per your design
-            height={50} // Adjust height as per your design
+            width={180}
+            height={50}
           />
         </div>
 
         {/* Search Bar */}
         <div className="hidden sm:flex flex-1 mx-4">
-          {/* Search bar with input field and button */}
           <div className="relative">
             <input
               type="text"
@@ -34,7 +32,6 @@ const Navbar = () => {
 
         {/* Navigation Links */}
         <div className="hidden sm:flex items-center space-x-6">
-          {/* Individual navigation links */}
           <Link href="#" className="text-gray-700 hover:text-orange-500">
             All Category
           </Link>
@@ -59,9 +56,7 @@ const Navbar = () => {
             Dashboard
           </Link>
 
-          {/* Icons Section */}
           <div className="flex items-center space-x-4">
-            {/* Cart Icon */}
             <Link href="#" className="text-gray-700 hover:text-orange-500">
               <svg
                 xmlns="http://www.w3.org/2000/svg"

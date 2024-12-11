@@ -13,7 +13,7 @@ const NavbarBannar = () => {
                 Good <span className="text-orange-500">food</span>, great
                 memories
               </h1>
-              <p className="mt-4 text-gray-600">
+              <p className="mt-4 text-black text-xl">
                 Enable diners to customize their booking by requesting a
                 specific table location or view.
               </p>

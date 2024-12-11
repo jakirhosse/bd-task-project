@@ -1,10 +1,11 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 const Footer = () => {
   return (
     <footer className="bg-black text-white py-10">
-      <div className="max-w-7xl mx-auto px-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
+      <div className="max-w-7xl mx-auto px-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6">
         {/* Logo and Newsletter */}
         <div className="col-span-2">
           <Image
@@ -31,11 +32,17 @@ const Footer = () => {
 
         {/* Account Section */}
         <div>
-          <h3 className="font-semibold text-lg mb-4">Account</h3>
-          <ul className="space-y-2 text-sm">
+          <h3 className="font-semibold text-lg">Account</h3>
+          <ul className="space-y-2 text-sm mt-4">
             <li>My Account</li>
-            <li>Login / Register</li>
-            <li>Cart</li>
+            <Link href="/register">
+              {" "}
+              <li>Login / Register</li>
+            </Link>
+            <Link href="/cart">
+              {" "}
+              <li>Cart</li>
+            </Link>
             <li>Wishlist</li>
             <li>Shop</li>
           </ul>
@@ -45,10 +52,20 @@ const Footer = () => {
         <div>
           <h3 className="font-semibold text-lg mb-4">Quick Link</h3>
           <ul className="space-y-2 text-sm">
-            <li>Privacy Policy</li>
-            <li>Terms Of Use</li>
+            <Link href="/privacy-police">
+              {" "}
+              <li>Privacy Policy</li>
+            </Link>
+            <Link href="/terms-of-use">
+              {" "}
+              <li>Terms Of Use</li>
+            </Link>
             <li>FAQ</li>
             <li>Contact</li>
+            <Link href="/About">
+              {" "}
+              <li>About</li>
+            </Link>
           </ul>
         </div>
 

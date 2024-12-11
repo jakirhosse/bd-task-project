@@ -6,7 +6,7 @@ import products from "../../../data/product.json";
 const Product = () => {
   return (
     <div className="container mx-auto p-6">
-      <h1 className="text-3xl font-bold text-center mb-8">Our Products</h1>
+      <h1 className="text-3xl font-bold "> Products</h1>
 
       {/* Products Grid */}
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
@@ -24,11 +24,7 @@ const Product = () => {
             <p className="text-lg font-bold text-green-600">${product.price}</p>
 
             {/* Visit Button */}
-            <Link href="/Product">
-              <button className="w-full text-base font-bold bg-green-700 text-white py-[12px] rounded-[8px] mt-4">
-                Visit
-              </button>
-            </Link>
+            <Link href="/Product"></Link>
           </div>
         ))}
       </div>

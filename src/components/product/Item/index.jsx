@@ -33,8 +33,8 @@ const ItemPage = () => {
             <Image
               src={`/item${index + 1}.png`}
               alt={`Item ${index + 1}`}
-              width={70}
-              height={100}
+              width={40}
+              height={50}
               className="rounded-lg shadow-lg object-cover"
             />
           </div>

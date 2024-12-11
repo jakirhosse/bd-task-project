@@ -39,6 +39,24 @@ const PopulerProduct = () => {
           name: "Skateboard Shoe",
           price: 125,
         },
+        {
+          id: 6,
+          imageUrl: "https://i.ibb.co/XsmYKDN/image-7.png",
+          name: "Skateboard Shoe",
+          price: 125,
+        },
+        {
+          id: 7,
+          imageUrl: "https://i.ibb.co/XsmYKDN/image-7.png",
+          name: "Skateboard Shoe",
+          price: 125,
+        },
+        {
+          id: 8,
+          imageUrl: "https://i.ibb.co/XsmYKDN/image-7.png",
+          name: "Skateboard Shoe",
+          price: 125,
+        },
       ];
       setProducts(mockProducts);
     };
@@ -51,7 +69,7 @@ const PopulerProduct = () => {
       <h1 className="text-3xl font-bold text-center text-gray-800 mb-6">
         Popular Products
       </h1>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 px-6">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 px-6">
         {products.map((product) => (
           <div
             key={product.id}
@@ -70,7 +88,7 @@ const PopulerProduct = () => {
             <p className="text-gray-500 text-sm">
               {product.description || "No description available"}
             </p>
-            <p className="text-green-500 font-bold text-lg mt-2">
+            <p className="text-primary font-bold text-lg mt-2">
               ${product.price}
             </p>
           </div>

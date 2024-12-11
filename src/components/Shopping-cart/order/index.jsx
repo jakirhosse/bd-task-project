@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const Order = () => {
@@ -99,9 +100,11 @@ const Order = () => {
                 </div>
               </div>
             </div>
-            <button className="w-full bg-orange-500 text-white py-2 mt-4 rounded-lg focus:outline-none focus:ring-2 focus:ring-orange-400">
-              Place Order
-            </button>
+            <Link href="/payment">
+              <button className="w-full bg-orange-500 text-white py-2 mt-4 rounded-lg focus:outline-none focus:ring-2 focus:ring-orange-400">
+                Place Order
+              </button>
+            </Link>
           </div>
         </div>
       </div>

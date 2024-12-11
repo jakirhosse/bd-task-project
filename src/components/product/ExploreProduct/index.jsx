@@ -31,7 +31,7 @@ const ExploreProduct = () => {
 
               {/* Shopping Cart Icon */}
               <Link href="/checkout">
-                <CiShoppingCart className="absolute top-2 right-2 bg-pink-800 text-white text-2xl" />
+                <CiShoppingCart className="absolute top-2 right-2 bg-orange-500 text-white text-2xl" />
               </Link>
             </div>
             <h2 className="text-xl font-semibold mb-2">{product.name}</h2>

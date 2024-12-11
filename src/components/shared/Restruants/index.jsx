@@ -8,9 +8,10 @@ const Restruants = () => {
   return (
     <div className="container">
       <div className="flex items-center justify-between pb-[35px]">
-        <div>
+        <div className="mx-8">
           <h5 className="text-4xl font-medium text-dark-50">
-            Explore <span className="text-primary"> Restaurants</span>
+            Explore{" "}
+            <span className="text-primary text-orange-600"> Restaurants</span>
           </h5>
           <p className="text-sm font-normal text-dark-200 pt-[4px]">
             Check your city{" "}
@@ -22,7 +23,7 @@ const Restruants = () => {
         </div>
         <div>
           <Link href={`/explore-restruants`}>
-            <button className="flex items-center gap-1 text-base font-normal text-dark-100">
+            <button className="flex items-center gap-1 text-base bg-green-500 font-normal text-dark-100">
               See All{" "}
               <svg
                 xmlns="http://www.w3.org/2000/svg"
