@@ -38,6 +38,13 @@ const Navbar = () => {
           <Link href="#" className="text-gray-700 hover:text-orange-500">
             All Category
           </Link>
+
+          <Link
+            href="/register"
+            className="text-gray-700 hover:text-orange-500"
+          >
+            Register/Login
+          </Link>
           <Link href="#" className="text-gray-700 hover:text-orange-500">
             Coupon
           </Link>
@@ -112,6 +119,12 @@ const Navbar = () => {
         <div className="flex flex-col space-y-2">
           <Link href="#" className="text-gray-700 hover:text-orange-500">
             All Category
+          </Link>
+          <Link
+            href="/register"
+            className="text-gray-700 hover:text-orange-500"
+          >
+            Register/Login
           </Link>
           <Link href="#" className="text-gray-700 hover:text-orange-500">
             Coupon
