@@ -35,8 +35,10 @@ const Order = () => {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
                 <select className="border rounded-lg p-2 focus:outline-none focus:ring-2 focus:ring-orange-500">
                   <option>Select Country / Region</option>
+                  <option>Select Country / Region</option>
                 </select>
                 <select className="border rounded-lg p-2 focus:outline-none focus:ring-2 focus:ring-orange-500">
+                  <option>Select State</option>
                   <option>Select State</option>
                 </select>
               </div>
