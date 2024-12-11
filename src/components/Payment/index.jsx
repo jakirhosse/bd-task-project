@@ -27,7 +27,7 @@ const Payment = () => {
       </h1>
       <p className="mt-2 text-sm text-gray-500 text-center">
         Your order #123456 has been placed successfully. You will be notified
-        when it's out for delivery.
+        when out for delivery.
       </p>
 
       {/* Download App Section */}
