@@ -47,20 +47,32 @@ const PopulerProduct = () => {
   }, []);
 
   return (
-    <div>
-      <h1 className="text-2xl mx-4">product</h1>
-      <div className="grid grid-cols-3 mx-20 gap-4 rounded-lg ">
+    <div className="py-8">
+      <h1 className="text-3xl font-bold text-center text-gray-800 mb-6">
+        Popular Products
+      </h1>
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 px-6">
         {products.map((product) => (
-          <div key={product.id} className="product-card">
+          <div
+            key={product.id}
+            className="bg-white shadow-lg rounded-lg overflow-hidden p-4 text-center transform transition hover:scale-105"
+          >
             <Image
               src={product.imageUrl}
               alt={product.name}
               width={200}
               height={300}
+              className="rounded-lg mx-auto"
             />
-            <h2>{product.name}</h2>
-            <p>{product.description}</p>
-            <p>${product.price}</p>
+            <h2 className="text-lg font-semibold text-gray-700 mt-4">
+              {product.name}
+            </h2>
+            <p className="text-gray-500 text-sm">
+              {product.description || "No description available"}
+            </p>
+            <p className="text-green-500 font-bold text-lg mt-2">
+              ${product.price}
+            </p>
           </div>
         ))}
       </div>

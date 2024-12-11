@@ -10,7 +10,7 @@ const NavbarBannar = () => {
             {/* Text Content */}
             <div className="lg:w-1/2 text-center lg:text-left">
               <h1 className="text-4xl font-bold text-gray-800 leading-snug">
-                Good <span className="text-green-500">food</span>, great
+                Good <span className="text-orange-500">food</span>, great
                 memories
               </h1>
               <p className="mt-4 text-gray-600">
@@ -51,42 +51,56 @@ const NavbarBannar = () => {
             <div className="flex justify-center items-center gap-2">
               <Image
                 src="/discount.png"
-                alt="Restaurant View"
-                width={100}
-                height={40}
+                alt="Discount"
+                width={60} // Adjusted width
+                height={24} // Adjusted height
                 className="rounded-lg shadow-lg"
               />
-              <div className="">
-                <p>Discount</p>
-                <p>Every week new sales</p>
+              <div>
+                <p className="text-gray-800 font-semibold">Discount</p>
+                <p className="text-gray-600 text-sm">Every week new sales</p>
               </div>
             </div>
 
             <div className="flex justify-center items-center gap-2">
               <Image
                 src="/discount.png"
-                alt="Restaurant View"
-                width={100}
-                height={40}
+                alt="Discount"
+                width={60} // Adjusted width
+                height={24} // Adjusted height
                 className="rounded-lg shadow-lg"
               />
-              <div className="">
-                <p>Discount</p>
-                <p>Every week new sales</p>
+              <div>
+                <p className="text-gray-800 font-semibold">Discount</p>
+                <p className="text-gray-600 text-sm">Every week new sales</p>
               </div>
             </div>
 
             <div className="flex justify-center items-center gap-2">
               <Image
                 src="/discount.png"
-                alt="Restaurant View"
-                width={100}
-                height={40}
+                alt="Discount"
+                width={60} // Adjusted width
+                height={24} // Adjusted height
                 className="rounded-lg shadow-lg"
               />
-              <div className="">
-                <p>Discount</p>
-                <p>Every week new sales</p>
+              <div>
+                <p className="text-gray-800 font-semibold">Discount</p>
+                <p className="text-gray-600 text-sm">Every week new sales</p>
+              </div>
+            </div>
+
+            <div className="flex justify-center items-center gap-2">
+              <Image
+                src="/discount.png"
+                alt="Discount"
+                width={60} // Adjusted width
+                height={24} // Adjusted height
+                className="rounded-lg shadow-lg"
+              />
+              <div>
+                <p className="text-gray-800 font-semibold">Discount</p>
+                <p className="text-gray-600 text-sm">Every week new sales</p>
               </div>
             </div>
           </div>
